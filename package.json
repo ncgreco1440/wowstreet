@@ -4,7 +4,9 @@
   "description": "WoW Street API",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "build": "tsc",
+    "auto": "tsc -w",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/ncgreco1440/wowstreet/issues"
   },
-  "homepage": "https://github.com/ncgreco1440/wowstreet#readme"
+  "homepage": "https://github.com/ncgreco1440/wowstreet#readme",
+  "dependencies": {
+    "@types/node": "^10.10.3",
+    "express": "^4.16.3",
+    "jest": "^23.6.0",
+    "request": "^2.88.0",
+    "ts-jest": "^23.10.1"
+  }
 }

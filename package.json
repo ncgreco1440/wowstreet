@@ -1,0 +1,19 @@
+{
+  "name": "wowstreet",
+  "version": "0.0.1",
+  "description": "WoW Street API",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncgreco1440/wowstreet.git"
+  },
+  "author": "Nico Greco (Coffee)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ncgreco1440/wowstreet/issues"
+  },
+  "homepage": "https://github.com/ncgreco1440/wowstreet#readme"
+}

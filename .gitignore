@@ -6,3 +6,4 @@
 /build
 
 ecosystem.config.js
+*.bat
